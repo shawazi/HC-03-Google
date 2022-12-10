@@ -1,4 +1,4 @@
-https://shawazi.github.io/HC_CC_03_Google/ git page not loading for some reason
+https://shawazi.github.io/HC_CC_03_Google/ <-- This is my attempt at the assignment prior to covering the solution in class with Jamil. 
 
 # HC-03 : Google Landing Page
 
