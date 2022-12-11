@@ -1,4 +1,4 @@
-https://shawazi.github.io/HC_CC_03_Google/ <-- This is my attempt at the assignment prior to covering the solution in class with Jamil. 
+https://shawazi.github.io/HC_CC_03_Google/ <-- Here is Jamil's solution, my initial attempt at this challenge is located in the "initial_attempt" folder.
 
 # HC-03 : Google Landing Page
 
