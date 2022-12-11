@@ -1,81 +1,155 @@
-/* reset */
-
 * {
-    margin: 0;
-    padding: 0;
-} 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
 
 html {
-    font-family: Arial, Helvetica, sans-serif;    
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
 }
 
-body {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+.header {
+padding: 1rem;
 }
 
-nav a{
-    color: black;
-    padding: 0;
-    text-decoration: none;
-    margin-top: 0;
-    margin-left: 0.75em;
-    margin-right: 0.75em;
-    font-size: 13px;
-    cursor: pointer;
+.header__right {
+float: right;
 }
 
-.left {
-    float: left;
+.header__left {
+float: left;
 }
 
-.right {
-    float: right;
+ul {
+list-style-type: none;
 }
 
-#navtop {
-    position:fixed;
-    top: 0;
-    width: 100%;
+li {
+display: inline;
 }
 
-.icon {
-    vertical-align: middle;
+header a, footer a {
+color: black;
+text-decoration: none;
+padding: 0.5rem;
+opacity: 0.8;
 }
 
-#google {
-    height: 95px;
-    width: 272px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 150px;
+a:hover {
+text-decoration: underline;
 }
 
-.center {
+.header__right--appicon {
+vertical-align: middle;
+opacity: 0.8;
+}
+
+.header__right--appicon:hover {
+opacity: 1;
+text-decoration: none;
+}
+
+.header__right--button {
+background-color: #4285F4;
+border: none;
+padding: 0.5rem;
+border-radius: 3px;
+color: white;
+font-weight: bold;
+}
+
+.header__right--button:hover {
+cursor: pointer;
+background-color: #2f72df;
+}
+
+
+/* Main Content */
+
+.main__logo {
+margin: 200px auto 40px;
+display: block;
+}
+
+.main__search-bar {
+height: 48px;
+width: 500px;
+border: 1px solid lightgrey;
+border-radius: 24px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+}
+
+.main__search-bar--magnify{
+height: 25px;
+margin-left: 10px;
+}
+
+.main__search-bar--input {
+width: 420px;
+border: none;
+font-size: 18px;
+}
+
+.main__search-bar--input:focus-visible {
+outline: none;
+}
+
+.main__search-bar--microphone {
+height: 24px;
+margin-left: 10px;
+}
+
+.main__buttons {
+text-align: center;
+margin-top: 32px;
+}
+
+.main__buttons--left,
+.main__buttons--right {
+background-color: #F9F9F9;
+border: none;
+padding: 1rem;
+border-radius: 3px;
+border: 1px solid transparent;
+margin: 0 4px ;
+}
+
+.main__buttons--left:hover,
+.main__buttons--right:hover{
+border: 1px solid #dadada;
+cursor: pointer;
+}
+
+#lang {
     text-align: center;
+    padding-top: 10px;
 }
 
-#button-center {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+.footer {
+position: fixed;
+bottom: 0;
+background-color: #f2f2f2;
+width: 100%;
 }
 
-.mag {
-    width: 25px;
-    margin-left: 10px;
-    margin-top: 10px;
+.footer__bottom {
+padding: 1rem;
 }
 
-.mic {
-    width: 14px;
-    margin-left: 10px;
+.footer__country {
+border-bottom: 1px solid #dadada;
+color: black;
+opacity: 0.8;
+padding: 1rem 1.5rem;
 }
 
-footer {
-    background-color: lightgray;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.footer__left {
+float: left;
+}
+
+.footer__left {
+float: right;
 }
